@@ -29,3 +29,50 @@ textarea {
     background-color: rgba($highlight, 0.1);
   }
 }
+
+.select-kit.single-select.is-expanded .select-kit-header:not(.btn),
+.select-kit.single-select .select-kit-header:not(.btn):focus,
+.select-kit.single-select .select-kit-header:not(.btn):active {
+  border-color: var(--tertiary);
+  outline: none;
+  border-radius: 3px;
+  background-color: rgba($highlight, 0.1);
+  outline-offset: 0;
+}
+
+.select-kit.is-expanded .select-kit-body {
+  background-color: $header-background;
+  color: $header-primary;
+}
+
+.select-kit.combo-box .select-kit-row {
+  background-color: $header-background;
+}
+.select-kit.combo-box .select-kit-row.is-highlighted {
+  background-color: $header-primary-low;
+}
+
+.d-date-time-input {
+  border-radius: 3px;
+  border-color: $header-primary-low-mid;
+  margin-right: 0.5rem;
+}
+
+.d-date-time-input-range {
+  border: none;
+}
+
+.pika-single,
+.pika-label,
+.pika-day {
+  background-color: $header_background;
+}
+
+.pika-single.is-bound {
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+
+.select-kit-body {
+  margin-top: 1rem;
+}
