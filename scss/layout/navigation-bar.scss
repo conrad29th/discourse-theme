@@ -1,0 +1,13 @@
+.nav .active {
+  border-radius: 4px;
+}
+
+.nav-pills > li > a {
+  color: $secondary-low;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: $secondary-high;
+    color: $secondary;
+  }
+}
