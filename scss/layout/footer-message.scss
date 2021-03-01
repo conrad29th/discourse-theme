@@ -7,4 +7,13 @@
     border-radius: 3px;
     color: $header-primary-medium;
   }
+
+  a {
+    transition: 0.25s ease border;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-bottom: 2px solid $highlight;
+    }
+  }
 }
