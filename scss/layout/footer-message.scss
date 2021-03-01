@@ -1,0 +1,10 @@
+.footer-message {
+  border: none;
+
+  .education {
+    border-top-width: 1px;
+    background-color: $header_background;
+    border-radius: 3px;
+    color: $header-primary-medium;
+  }
+}

@@ -1,0 +1,28 @@
+.d-header {
+  background-color: #414336;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 7px 21px 0px;
+
+  .header-dropdown-toggle {
+    .d-icon {
+      color: $header_primary;
+    }
+    .discourse-no-touch & {
+      &:hover {
+        background: $danger-medium;
+        .d-icon,
+        &[href],
+        .d-button-label {
+          color: $header_primary;
+        }
+      }
+    }
+  }
+}
+
+.discourse-no-touch .d-header-icons .icon:hover,
+.discourse-no-touch .d-header-icons .icon:focus {
+  background-color: red;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}

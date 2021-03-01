@@ -1,0 +1,22 @@
+.combo-box-header {
+  border-radius: 3px;
+}
+
+.select-kit.combo-box .select-kit-header {
+  &:hover {
+    background-color: rgba($highlight, 0.1);
+    border-color: rgba($highlight, 0.5);
+  }
+}
+
+.select-kit.dropdown-select-box .select-kit-row .texts .desc {
+  color: rgba($primary, 0.7);
+}
+
+.select-kit.multi-select .multi-select-header {
+  border-radius: 3px;
+}
+
+.select-kit .select-kit-row.is-highlighted {
+  background: rgba($header_background, 0.8);
+}
