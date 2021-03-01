@@ -11,3 +11,10 @@
     color: $secondary;
   }
 }
+
+.nav-stacked {
+  border-radius: 4px;
+  a {
+    background-color: $header-background;
+  }
+}
