@@ -1,0 +1,32 @@
+table.topic-list,
+.latest-topic-list-item {
+  background-color: $header-background;
+  border-radius: 4px;
+
+  thead {
+    background-color: $header_primary-low;
+    th,
+    .d-icon {
+      color: $primary;
+    }
+  }
+
+  tbody {
+    a.title:hover {
+      border-bottom: none;
+    }
+    border: none;
+
+    tr {
+      border: none;
+
+      &:hover {
+        background-color: $header-primary-low;
+      }
+    }
+
+    img.avatar {
+      border: 1px solid $primary;
+    }
+  }
+}
