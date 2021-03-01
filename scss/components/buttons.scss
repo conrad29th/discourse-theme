@@ -1,0 +1,65 @@
+.btn {
+  background: $header_background;
+  color: $header_primary;
+  border-radius: 3px;
+
+  &[href],
+  .d-icon-thumb-tack {
+    color: $header_primary;
+  }
+
+  .d-icon {
+    color: $header_primary;
+  }
+  .discourse-no-touch & {
+    &:hover {
+      background: $header_primary-low-mid;
+      color: $header_primary;
+      .d-icon,
+      &[href] {
+        color: $header_primary;
+      }
+    }
+  }
+
+  &:disabled {
+    background: $header_primary-low-mid;
+    &:hover {
+      background: $header_primary-low-mid;
+    }
+  }
+}
+
+.btn:active,
+.btn.btn-active {
+  background: $header_primary-medium;
+}
+
+.btn-flat .d-icon {
+  color: $header_primary-low-mid;
+  transition: color 0.25s ease;
+}
+
+.btn-danger {
+  background-color: $danger;
+
+  &[href],
+  .d-icon-thumb-tack {
+    color: $header_primary;
+  }
+
+  .d-icon {
+    color: $header_primary;
+  }
+
+  .discourse-no-touch & {
+    &:hover {
+      background: $danger-medium;
+      .d-icon,
+      &[href],
+      .d-button-label {
+        color: $header_primary;
+      }
+    }
+  }
+}
