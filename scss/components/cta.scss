@@ -1,0 +1,38 @@
+.signup-cta.alert.alert-info {
+  background-color: rgba($highlight, 0.2);
+  background-color: rgba($header-background, 1);
+  color: $header-primary;
+  border-radius: 3px;
+  border-top: none;
+  border-bottom: none;
+  .btn-primary {
+    background-color: rgba($highlight, 0.25);
+    color: $primary;
+    &:hover {
+      background-color: rgba($highlight, 0.8);
+    }
+  }
+  a {
+    color: $primary;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: auto;
+    border: 1px dashed $primary;
+    padding: 0.5rem 0.8rem;
+    border-radius: 3px;
+    transition: border-style 0.3s ease-in, background-color 0.3s ease;
+    &:hover {
+      background-color: rgba($primary, 0.1);
+      border-style: solid;
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    button {
+      margin-right: 0.5rem;
+    }
+  }
+}
