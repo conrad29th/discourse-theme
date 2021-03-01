@@ -1,4 +1,4 @@
-.topic-timer-info {
+.topic-status-info:not(:empty) {
   background: rgba($primary, 0.25);
   border-radius: 4px;
   border: none;
