@@ -1,0 +1,22 @@
+.alert {
+  border-radius: 2px;
+
+  a {
+    font-weight: bold;
+    color: $highlight-high;
+    border-bottom: 2px solid transparent;
+    transition: border 0.25s ease;
+
+    &:hover,
+    &:focus,
+    &:active {
+      border-bottom: 2px solid $highlight-high;
+    }
+  }
+}
+
+.alert.alert-info {
+  //   background-color: alpha(var(--quaternary), 0.5);
+  background-color: rgba($highlight, 0.2);
+  color: rgba($highlight, 0.8);
+}
