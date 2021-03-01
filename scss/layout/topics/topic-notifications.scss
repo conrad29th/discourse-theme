@@ -1,0 +1,12 @@
+.topic-notifications-button {
+  .single-select-header {
+    background-color: rgba($primary, 0.25);
+  }
+  span.text {
+    background-color: rgba($primary, 0.25);
+    color: $primary;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 4px;
+  }
+}
