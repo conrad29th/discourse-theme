@@ -1,0 +1,11 @@
+.post-controls {
+  .widget-button {
+    border-radius: 3px;
+    &:hover {
+      background-color: $header-background;
+    }
+  }
+  .d-icon {
+    color: $header-primary;
+  }
+}
