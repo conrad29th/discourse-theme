@@ -20,5 +20,9 @@
 }
 
 .action-list li {
+  background-color: $header-background;
+}
+
+.user-secondary-navigation .nav-stacked a.active {
   background-color: rgba($primary, 0.25);
 }

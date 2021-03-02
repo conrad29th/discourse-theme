@@ -20,3 +20,26 @@
 .select-kit .select-kit-row.is-highlighted {
   background: rgba($header_background, 0.8);
 }
+
+.select-kit-collection {
+  background-color: $header-background;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
+}
+.select-kit.dropdown-select-box.notifications-filter .select-kit-collection {
+  background-color: $header-background;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
+
+  li {
+    border-radius: 4px;
+    &:hover {
+      background-color: rgba($highlight, 0.1);
+    }
+  }
+}
+.select-kit .select-kit-row.is-selected {
+  background: rgba($highlight, 0.8);
+}
