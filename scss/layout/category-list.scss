@@ -5,6 +5,7 @@
   border-bottom: none;
 
   thead {
+    border-left: 2px solid $header_primary-low;
     background-color: $header_primary-low;
     th {
       color: $header-primary;

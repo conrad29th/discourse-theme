@@ -1,0 +1,24 @@
+.user-main .about {
+  border: none;
+}
+
+.user-stream,
+.user-content {
+  margin-left: 1rem;
+}
+
+li.user-stream-item.item {
+  background-color: $header-background;
+  border-radius: 4px;
+  margin: 0 1rem;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
+}
+
+li.item.notification {
+  background-color: $header-background;
+  border-radius: 4px;
+  margin: 1rem;
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
+}
