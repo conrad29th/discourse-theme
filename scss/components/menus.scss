@@ -1,0 +1,62 @@
+//
+
+.menu-panel {
+  background-color: $header-background;
+  margin: 1rem;
+  border-radius: 4px;
+  border: none;
+
+  .widget-button.active {
+    background: rgba($highlight, 0.25);
+    border-color: transparent;
+    .d-icon {
+      color: $highlight !important;
+    }
+  }
+
+  .widget-button {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    border-radius: 4px;
+    &:hover {
+      background: rgba($highlight, 0.15);
+    }
+  }
+
+  .quick-access-panel {
+    border-top: none;
+
+    ul {
+      border-radius: 3px;
+    }
+  }
+}
+
+div.menu-links-header .menu-links-row .glyphs button {
+  border: none;
+}
+
+.user-menu .quick-access-panel.quick-access-profile li:not(.show-all) {
+  svg {
+    color: $header-primary;
+  }
+
+  background: $header-background;
+  border-radius: 4px;
+
+  &:hover {
+    background: rgba($highlight, 0.5);
+  }
+}
+
+.menu-panel li a.widget-link:hover,
+.menu-panel li a.widget-link:focus,
+.menu-panel li a.categories-link:hover,
+.menu-panel li a.categories-link:focus,
+.menu-panel li.heading a.widget-link:hover,
+.menu-panel li.heading a.widget-link:focus,
+.menu-panel li.heading a.categories-link:hover,
+.menu-panel li.heading a.categories-link:focus {
+  background: rgba($highlight, 0.5);
+  border-radius: 4px;
+}
