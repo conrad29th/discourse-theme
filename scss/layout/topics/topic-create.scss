@@ -1,0 +1,51 @@
+.composer-popup {
+  background-color: $header-background;
+  border-radius: 4px;
+  box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.13);
+}
+
+.d-editor-textarea-wrapper {
+  background-color: $header-background;
+  border-radius: 4px;
+  border: none;
+
+  .d-editor-input {
+    &:hover {
+      background-color: rgba($header-primary, 0.15);
+    }
+  }
+
+  .d-editor-button-bar {
+    background-color: #2d2e25;
+    border-radius: 4px;
+  }
+}
+#reply-title,
+#reply-control .category-input .category-chooser div {
+  background-color: $header-background;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.13);
+}
+
+.d-editor-textarea-wrapper.in-focus {
+  box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.13);
+}
+
+.d-editor-preview {
+  background: $header-background;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.d-editor-preview-wrapper::before {
+  content: "PREVIEW";
+  display: inline-block;
+  padding: 1rem;
+  background-color: #2d2e25;
+  box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.13);
+  color: $header-primary;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin-bottom: 0.25rem;
+}
