@@ -80,3 +80,7 @@
   border-radius: 4px;
   padding: 1rem;
 }
+
+.topic-body.highlighted {
+  animation: background-fade-highlight 0s;
+}
