@@ -16,6 +16,11 @@
   border-radius: 4px;
   a {
     background-color: $header-background;
+    transition: 0.25s ease background-color;
+
+    &:hover {
+      background-color: $header-primary-low;
+    }
   }
 }
 
