@@ -5,5 +5,17 @@
   "assets": {
   },
   "color_schemes": {
+    "29th Infantry Palette": {
+      "primary": "dddddd",
+      "secondary": "565a43",
+      "tertiary": "f5cb5c",
+      "quaternary": "f5cb5c",
+      "header_background": "414336",
+      "header_primary": "e8eddf",
+      "highlight": "f5cb5c",
+      "danger": "BD4B4B",
+      "success": "f5cb5c",
+      "love": "f5cb5c"
+    }
   }
 }
