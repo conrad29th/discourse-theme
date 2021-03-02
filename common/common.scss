@@ -1,6 +1,9 @@
 /** --- UTILITIES --- **/
 @import "utilities/variables";
-// @import "utilities/mixins";
+
+:root {
+  --primary-medium: #c1bcbc;
+}
 
 /** --- COMPONENTS --- **/
 @import "components/alerts";
@@ -15,6 +18,7 @@
 @import "components/menus";
 
 /** --- LAYOUT --- **/
+@import "layout/admin-settings";
 @import "layout/topics/topic-link";
 @import "layout/topics/topic-list-item";
 @import "layout/topics/topic-notifications";

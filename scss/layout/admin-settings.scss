@@ -1,0 +1,20 @@
+.admin-controls {
+  margin-bottom: 1rem;
+  border-radius: 4px;
+
+  .controls {
+    border-radius: 4px;
+  }
+}
+
+.admin-detail {
+  background: $header-background;
+}
+
+.admin-content {
+  background: $header-background !important;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.13);
+}
