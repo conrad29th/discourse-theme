@@ -1,0 +1,29 @@
+.category-list {
+  background-color: $header-background;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border-bottom: none;
+
+  thead {
+    background-color: $header_primary-low;
+    th {
+      color: $header-primary;
+      text-transform: uppercase;
+      padding: 1rem 2rem;
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: none;
+
+      &:hover {
+        background-color: $header-primary-low;
+      }
+
+      .category {
+        border-left-width: 2px;
+      }
+    }
+  }
+}
