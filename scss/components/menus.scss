@@ -1,5 +1,6 @@
 .menu-panel {
-  background-color: $header-background;
+  // background-color: $header-background;
+  background-color: #2d2e25;
   margin: 1rem;
   border-radius: 4px;
   border: none;
@@ -57,4 +58,8 @@ div.menu-links-header .menu-links-row .glyphs button {
 .menu-panel li.heading a.categories-link:focus {
   background: rgba($highlight, 0.5);
   border-radius: 4px;
+}
+
+.menu-panel .panel-body-bottom .btn {
+  background-color: $header-background;
 }
