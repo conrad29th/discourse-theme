@@ -10,20 +10,21 @@
     th {
       color: $header-primary;
       text-transform: uppercase;
-      padding: 1rem 2rem;
+      padding: 1.5rem 2.5rem;
     }
   }
 
   tbody {
     tr {
-      border-bottom: none;
+      border-bottom: 2px solid;
+      border-bottom-color: $header-primary-low;
 
       &:hover {
         background-color: $header-primary-low;
       }
 
       .category {
-        border-left-width: 2px;
+        border-left-width: 4px;
       }
     }
   }
