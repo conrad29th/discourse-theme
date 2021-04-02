@@ -3,6 +3,7 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border-bottom: none;
+  padding: 1rem 1rem
 
   thead {
     border-left: 2px solid $header_primary-low;
@@ -10,7 +11,7 @@
     th {
       color: $header-primary;
       text-transform: uppercase;
-      padding: 1.5rem 2.5rem;
+      padding: 1rem 2rem;
     }
   }
 
