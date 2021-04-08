@@ -3,6 +3,8 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border-bottom: none;
+  border-collapse: separate;
+  border-spacing: 0px 1em;
   
   thead {
     border-left: 2px solid $header_primary-low;
